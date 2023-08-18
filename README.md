@@ -40,7 +40,7 @@
 *******
 El código unido debe quedar así:
 
-<img width="622" alt="Captura de pantalla 2023-08-17 a la(s) 22 42 07" src="https://github.com/stypcanto/Test-Tailwind/assets/80213508/9f7eec5d-1b47-4a13-9234-24fcf5c5ae21">
+<img width="622" alt="Captura de pantalla 2023-08-17 a la(s) 22 42 07" src="https://github.com/stypcanto/Test-Tailwind/assets/80213508/f4942268-513e-4d5d-adeb-002e31d57b13">
 
 
 *******
