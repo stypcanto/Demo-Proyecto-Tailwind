@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+
+    <div class="container | px-4 py-12 mx-auto">
+        
+        <div class="w-full mb-4">
+            <h2 class="mb-6 text-3xl font-semibold text-blue-900"> Colores y Dimensiones</h2>
+
+            <button class="text-blue-100 bg-blue-500 rounded btn">
+                <a class="text-blue-200">Tailwind CSS</a>
+            </button>
+        </div class="mb-4 w-100">
+
+        <h2 class="mb-6 text-3xl font-semibold text-blue-900"> Display y Flexbox | Pseudo-Class Variants</h2>
+
+        <div class="flex">
+            <button
+                class="btn | bg-blue-500 hover:bg-blue-800  | active:bg-blue-600 active:ring | text-blue-100 |rounded-l">
+                Tailwind - Left
+            </button>
+            <button class="btn |  bg-blue-500 hover:bg-blue-800 text-blue-100">
+                Tailwind - Center
+            </button>
+            <button class="btn | bg-blue-500 hover:bg-blue-800 text-blue-100 | disabled:bg-blue-300 rounded-r">
+                Tailwind - Rigth
+            </button>
+        </div>
+
+
+        <div class="mb-4 w-100">
+            <h2 class="mb-6 text-3xl font-semibold text-blue-900">Extraer componentes usando @apply</h2>
+            <div class="flex flex-col">
+                <div class="alert alert-neutro">Este mensaje es una alerta neutra</div>
+                <div class="alert alert-danger">Este mensaje es una alerta danger</div>
+                <div class="alert alert-warning">Este mensaje es una alerta warning</div>
+                <div class="alert alert-info">Este mensaje es una alerta info</div>
+            </div>
+        </div>
+
+
+
+    </div>
+</body>
+
+</html>

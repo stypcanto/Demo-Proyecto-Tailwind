@@ -14,3 +14,27 @@
 }
 }
 
+
+.btn{
+    @apply w-full px-3 py-1 text-lg transition duration-300 sm:w-48 focus:outline-none;
+}
+
+.alert{
+    @apply w-full px-3 py-2 mb-3 text-lg text-center border border-solid rounded sm:w-80;
+}
+
+.alert-neutro{
+    @apply text-gray-500 bg-gray-100 border-gray-300;
+}
+
+.alert-danger{
+    @apply text-red-500 bg-red-100 border-red-300;
+}
+
+.alert-warning{
+    @apply text-yellow-500 bg-yellow-100 border-yellow-300;
+}
+
+.alert-info{
+    @apply text-blue-500 bg-blue-100 border-blue-300;
+}
