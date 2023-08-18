@@ -31227,6 +31227,18 @@ video {
   content: none;
 }
 
+.rotate-45{
+  transform: rotate(45deg);
+}
+
+.zoom{
+  transform: scale(2);
+}
+
+.hover\:zoom:hover{
+  transform: scale(2);
+}
+
 @media (min-width: 640px) {
   .sm\:container {
     width: 100%;
@@ -61474,6 +61486,10 @@ video {
 
   .sm\:ease-in-out {
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .sm\:rotate-45{
+    transform: rotate(45deg);
   }
 }
 
@@ -91725,6 +91741,10 @@ video {
   .md\:ease-in-out {
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   }
+
+  .md\:rotate-45{
+    transform: rotate(45deg);
+  }
 }
 
 @media (min-width: 1024px) {
@@ -121974,6 +121994,10 @@ video {
 
   .lg\:ease-in-out {
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .lg\:rotate-45{
+    transform: rotate(45deg);
   }
 }
 
@@ -152225,6 +152249,10 @@ video {
   .xl\:ease-in-out {
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   }
+
+  .xl\:rotate-45{
+    transform: rotate(45deg);
+  }
 }
 
 @media (min-width: 1536px) {
@@ -182475,4 +182503,9 @@ video {
   .\32xl\:ease-in-out {
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   }
+
+  .\32xl\:rotate-45{
+    transform: rotate(45deg);
+  }
 }
+
