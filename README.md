@@ -39,10 +39,9 @@
 
 *******
 El código unido debe quedar así:
-    "scripts": {
-        "build": "postcss css/tailwind.css -o public/css/styles.css",
-        "dev": "postcss css/tailwind.css -o public/css/styles.css --watch"
-      },
+
+<img width="622" alt="Captura de pantalla 2023-08-17 a la(s) 22 42 07" src="https://github.com/stypcanto/Test-Tailwind/assets/80213508/9f7eec5d-1b47-4a13-9234-24fcf5c5ae21">
+
 
 *******
 
